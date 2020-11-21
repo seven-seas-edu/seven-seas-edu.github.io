@@ -2463,6 +2463,7 @@ ul {
   background-repeat: no-repeat;
   background-size: 68%;
   background-position: top right;
+  border-bottom: 2px solid #0c2e60;
 }
 
 @media (max-width: 576px) {
