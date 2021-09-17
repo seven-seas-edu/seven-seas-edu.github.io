@@ -1,0 +1,320 @@
+main.international-apirants {
+    .online-booking.online-booking-int-asp {
+        background-image: url("../images/study-bg.png");
+        h2 {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 36px;
+        }
+        .teacher {
+            width: 13%;
+        }
+        .last-para > div {
+            padding-left: 0;
+        }
+        .tructed-text {
+            max-width: 45%;
+        }
+    }
+    .home-hero {
+        &%background-props {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+    }
+    @function wordSpacing($spacing) {
+        @return $spacing;
+    }
+    .int-service-bg {
+        background-image: url(../images/page-2-bg.svg);
+        @extend %background-props;
+    }
+    .int-recruiting-agent {
+        background-image: url(../images/page-3-hero.svg);
+        @extend %background-props;
+        h2 + p {
+            word-spacing: wordSpacing(2px);
+        }
+    }
+    .fs-36 {
+        font-size: 36px;
+    }
+    .fs-48 {
+        font-size: 48px;
+    }
+    .fw-500 {
+        font-weight: 500;
+    }
+    .width-50 {
+        width: 50px;
+    }
+    .height-12 {
+        height: 12px;
+    }
+    .width-150 {
+        width: 150px;
+    }
+    .br-20 {
+        border-radius: 20px;
+    }
+    .br-10 {
+        border-radius: 10px;
+    }
+    .br-25 { 
+        border-radius: 25px;
+    }
+    .btn-warning {
+        background: #e3a311;
+    }
+    .width-92 {
+        width: 92%;
+    }
+    .career-programs {
+        background: #adceff;
+        .red-text {
+            color: #e31e24;
+            word-spacing: 3px;
+        }
+        .right-section {
+            border-radius: 20px;
+            + p {
+                color: #001343;
+                font-size: 24px;
+                padding-left: 40px;
+                padding-right: 40px;
+                word-spacing: 4px;
+            }
+        }
+    }
+    .study-section {
+        background: #feffc5;
+        .btn-style {
+            background: #755912;
+            font-size: 48px;
+            border-radius: 20px;
+        }
+        .text-study {
+            color: #434400;
+            width: 64.5%;
+            margin: auto;
+            span {
+                padding-right: 14.1px;
+            }
+        }
+        &.extended {
+            background: #e9d7c3;
+            .btn-style {
+                background: #4b0303;
+            }
+            .text-study {
+                color: #a05400;
+            }
+            .btn-warning {
+                background: #9b691f;
+                & + p {
+                    color: #9b691f;
+                }
+            }
+        }
+    }
+    .primary-btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .student-facilities {
+        background: #cfffd0;
+        &.exteded {
+            background: #730000;
+            .btn {
+                color: #730000;
+            }
+            .fw-bolder {
+                font-weight: 900 !important;
+            }
+        }
+        .text-grey {
+            color: #bebebe;
+        }
+    }
+    #staticBackdrop {
+        .modal-dialog {
+            max-width: initial;
+            height: 100%;
+            min-height: initial;
+        }
+    }
+    /* carousel started  */
+    .carousel-dark .carousel-indicators {
+        margin-right: 0;
+        margin-left: 0;
+        height: 110px;
+        bottom: -32px;
+        align-items: center;
+        [data-bs-target] {
+            background-color: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            position: relative;
+            margin-right: 140px;
+            margin-left: 140px;
+            opacity: 1;
+            &.active::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 100px;
+                width: 100px;
+                background: url(./../../assets/images/page-2-sec1-b.png);
+                left: -30px;
+                top: -30px;
+            }
+            &:not(:last-child)::after {
+                content: "";
+                height: 12px;
+                width: 150px;
+                background: #fff;
+                position: absolute;
+                left: 112px;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                border-radius: 50px;
+               
+            }
+        }
+    } 
+    /* Carousel end */   
+    
+    &.learning-path {
+        .home-hero.learning-bg, .home-hero.discover-bg {
+            p {
+                font-family: $roboto-regular;
+                color: #243665;
+            }
+        }
+        .learning-bg {
+            background: url(./../../assets/images/page-7-discover.svg);
+            @extend %background-props;
+        }
+        .bg-c-discover {
+            background: #FFD6E7;
+        }
+        .btn-magenta {
+            background: #D959D2;
+        }
+        .btn-violate {
+            background: #7B55CC;
+        }
+        .btn-blue {
+            background: #4767BE;
+        }
+        .btn-skyblue {
+            background: #2982A0;
+        }
+        .text-blue {
+            color: #1F3C88;
+        }
+        .bg-dark-blue {
+            background: #1F3C88;
+        }
+        .custom-adjust {
+            img {
+                transform: scale(0.8) translateY(-6px);
+            }
+            &.extended img{
+                transform: scale(1) translateY(41px);
+            }            
+        }
+        .commitment {
+            .scale {
+                transform: scale(0.8);
+            }
+            .transform-translate {
+                transform: scale(1) translateY(41px);
+            }
+        }
+
+    }
+    &.discover-purposes {
+        .home-hero.discover-bg {
+            @extend %background-props;
+            background-image: url(./../../assets/images/page-6-discover-purpose-bg.svg);
+            background-position: right bottom 22px;
+            h3 { 
+                color: #243665;
+            }
+            button {
+                margin: auto 0 auto auto;
+            }
+        }
+        .btn-bg-blue {
+            background: #016BE0;
+        }
+        .btn-bg-brawn {
+            background: #DA4412;
+        }
+        .story-text {
+            border: 2px solid #000000;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .text-light-blue {
+            color: #03039c;
+        }
+        .bg-dark-violet {
+            background: #6A2277;
+        }
+        .br-10-0 {
+            border-radius: 10px 0;
+        }
+        blockquote {
+            background-image: url(./../../assets/images/left-bottom.svg), url(./../../assets/images/top-right.svg);
+            padding: 42px 42px 190px 30px;
+            background-size: 85%, 80%;
+            font-size: 16px;
+            background-position: left 0px top 74%, top 0px right 0px;
+            background-repeat: no-repeat;
+            text-align: justify;
+            position: relative;
+            p:first-child::first-letter {
+                padding-left: 10%;
+            }
+            &::before {
+                content: url(./../../assets/images/double-in-start.PNG);
+                position: absolute;
+                top: -27px;
+                left: -31px;
+            }
+            &::after {
+                content: url(./../../assets/images/double-in-end.PNG);
+                position: absolute;
+                bottom: 23%;
+                right: -41px;
+            }
+        }
+        .educational-services {
+            padding: 10px;
+            background: linear-gradient(
+                112deg, #B61256, #DC8EAE, #FFFFFF , #E5ABC3, #E5ABC3);
+            >div {
+                border-radius: 15px/18px;
+            }
+        }
+        .why-canada {
+            .transformed {
+                transform: translateY(-17px);
+            }
+        }
+        .bg-pinkish-magenta {
+            background: #C952DF;
+        }
+        .bg-light-sky-blue {
+            background: #E8F0FE;            
+        }
+        .h-40 {
+            height: calc(100% - 252px);
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+main.about-common {
+    h1 { 
+        font-size: 2.25rem;
+        letter-spacing: 5px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            height: 3px;
+            background: #000000;
+            width: 149px;
+            left:0;
+            right: 0;
+            margin: auto;
+            bottom: 25px;
+        }
+    }
+    .featured-news {
+        background: #FFD6E7;
+        .custom-card {
+            height: 423px;
+            background: #E8F1FF;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 35px;
+            margin-bottom: 35px;
+            max-width: 365px;
+        }
+    }
+    .blog {
+        h1 {
+            color: #FF0069;
+            letter-spacing: normal;
+            background: linear-gradient(0deg, #D4DFFB, #D4DFFB), #FFFFFF;
+            &::after {
+                content: none;
+            }
+        }
+        .blog-card {
+            height: 250px;
+            max-width: 340px;
+            border-radius: 20px;
+            background: #C4C4C4;
+            margin:25px auto;
+        }
+        h3 {
+            font-size: 2.25rem;
+            border-radius: 10px;
+        }
+        &.extended {
+            background: #D28A39;
+        }
+    }
+    .management {
+        background: #A2B6EB;
+        h2 { 
+            border-radius: 10px;
+        }
+        .person {
+            height: 248px;
+            width: 248px;
+            background: #C4C4C4;
+            margin: auto;
+        }
+        h4 {
+            font-size: 2.25rem;
+        }
+        .experts-voice {
+            h2 { 
+                font-size: 3rem;
+            }
+            p {
+                &::first-letter {
+                    padding-left: 3.3rem;
+                }
+                text-align: justify;
+            }
+            
+        }
+    }
+}

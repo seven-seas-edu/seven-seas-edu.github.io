@@ -1,0 +1,1670 @@
+@font-face {
+  font-family: roboto-bold;
+  src: url(../font/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold-italic;
+  src: url(../font/roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-regular-italic;
+  src: url(../font/roboto/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url(../font/roboto/RobotoMedium.ttf);
+}
+
+@font-face {
+  font-family: roboto-medium-italic;
+  src: url(../font/roboto/Roboto-MediumItalic.ttf);
+}
+
+.purple-primary-btn {
+  background-color: #58019C;
+  border-radius: 20px;
+  font-family: roboto-bold;
+  font-size: 24px;
+  height: 80px;
+  padding: 0 36px;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #243665;
+  border-radius: 20px;
+  font-family: roboto-bold;
+  font-size: 24px;
+  padding: 0 36px;
+}
+
+.common-btn {
+  display: inline-block;
+  border-radius: 20px;
+  font-family: roboto-medium;
+  font-size: 32px;
+  padding: 21px 50px;
+  border: none;
+  text-decoration: none;
+}
+
+.label-ribben {
+  border-radius: 20px 0;
+  font-family: roboto-bold-italic;
+  font-size: 36px;
+  padding: 10px 25px;
+}
+
+.common-peach-section {
+  background: #CCD9ED;
+}
+
+.common-peach-section .title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.common-peach-section p {
+  color: #243665;
+}
+
+.common-peach-section .shadow {
+  -webkit-box-shadow: 0 4px 4px rgba(30, 30, 30, 0.3) !important;
+          box-shadow: 0 4px 4px rgba(30, 30, 30, 0.3) !important;
+}
+
+.red-bg {
+  background-color: #F82626;
+}
+
+.red-bg .title h3 {
+  color: #F82626;
+}
+
+.green-bg {
+  background-color: #0E4E40;
+}
+
+.green-bg .title h3 {
+  color: #0E4E40;
+}
+
+.sky-blue-bg {
+  background-color: #4DC7E1;
+}
+
+.sky-blue-bg .title h3 {
+  color: #494949;
+}
+
+.yellow-bg {
+  background-color: #ECB91F;
+}
+
+.yellow-bg .title h3 {
+  color: #97B031;
+}
+
+.blue-bg {
+  background-color: #5684FF;
+}
+
+.blue-bg .title h3 {
+  color: #5684FF;
+}
+
+.purple-bg {
+  background-color: #7656A4;
+}
+
+.purple-bg .title h3 {
+  color: #62614A;
+}
+
+.grey-bg {
+  background-color: #5B5B5B;
+}
+
+.grey-bg .title h3 {
+  color: #494949;
+}
+
+.pink-bg {
+  background-color: #E01167;
+}
+
+.pink-bg .title h3 {
+  color: #E01167;
+}
+
+main.institutes .institute-bg {
+  background: url(./../../assets/images/page-institutes-hero.svg);
+  background-size: contain;
+  background-position: center center;
+}
+
+main.institutes .institutes-type-2-bg {
+  background: url(./../../assets/images/page-institutes-type-2-bg.svg);
+  background-size: contain;
+  background-position: center center;
+}
+
+main.institutes .industries-layout {
+  background: #91aabb;
+}
+
+main.institutes .industries-layout-2 {
+  background: #ABC5B2;
+}
+
+main.institutes .selected-countries .badge {
+  background: #005793;
+  color: #e5e5e5;
+}
+
+main.institutes .selected-countries .badge.badge-2 {
+  background: #003334;
+}
+
+main.institutes .selected-countries .badge.selected {
+  background: #00164F;
+}
+
+main.institutes .selected-countries .badge.selected a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+main.institutes .dropdown button {
+  font-size: 30px;
+  color: #243665;
+  font-weight: 300;
+}
+
+main.institutes .dropdown button.dropdown-toggle::after {
+  content: none;
+}
+
+main.institutes .dropdown button img {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main.institutes .dropdown button.active + .dropdown-menu {
+  display: block;
+  width: 100%;
+  top: 94px;
+  border-radius: 20px 20px;
+  font-size: 24px;
+  padding: 0;
+}
+
+main.institutes .dropdown button.active + .dropdown-menu li {
+  border-radius: 20px;
+}
+
+main.institutes .dropdown button.active + .dropdown-menu li a {
+  border-radius: 20px;
+  padding-left: 48px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #243665;
+  font-weight: 300;
+}
+
+main.institutes .dropdown button.active + .dropdown-menu li a:hover, main.institutes .dropdown button.active + .dropdown-menu li a:active, main.institutes .dropdown button.active + .dropdown-menu li a:focus {
+  border-radius: 20px;
+}
+
+main.institutes .dropdown button.active + .dropdown-menu li a:active {
+  background-color: #91aabb;
+  color: black;
+}
+
+main.institutes .dropdown button.active img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+main.institutes .university-list .badge {
+  width: 100%;
+  white-space: normal;
+  border-radius: 20px;
+}
+
+main.institutes .university-list .badge p {
+  color: #1f1f1f;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+@media (min-width: 576px) {
+  main.institutes .university-list .custom-sm-6 {
+    width: 49%;
+  }
+}
+
+main.international-apirants {
+  /* carousel started  */
+  /* Carousel end */
+}
+
+main.international-apirants .online-booking.online-booking-int-asp {
+  background-image: url("../images/study-bg.png");
+}
+
+main.international-apirants .online-booking.online-booking-int-asp h2 {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+}
+
+main.international-apirants .online-booking.online-booking-int-asp .teacher {
+  width: 13%;
+}
+
+main.international-apirants .online-booking.online-booking-int-asp .last-para > div {
+  padding-left: 0;
+}
+
+main.international-apirants .online-booking.online-booking-int-asp .tructed-text {
+  max-width: 45%;
+}
+
+main.international-apirants .home-hero.int-service-bg, main.international-apirants .home-hero.int-recruiting-agent, main.international-apirants.learning-path .home-hero.learning-bg, main.international-apirants.discover-purposes .home-hero.discover-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+main.international-apirants .int-service-bg {
+  background-image: url(../images/page-2-bg.svg);
+}
+
+main.international-apirants .int-recruiting-agent {
+  background-image: url(../images/page-3-hero.svg);
+}
+
+main.international-apirants .int-recruiting-agent h2 + p {
+  word-spacing: 2px;
+}
+
+main.international-apirants .fs-36 {
+  font-size: 36px;
+}
+
+main.international-apirants .fs-48 {
+  font-size: 48px;
+}
+
+main.international-apirants .fw-500 {
+  font-weight: 500;
+}
+
+main.international-apirants .width-50 {
+  width: 50px;
+}
+
+main.international-apirants .height-12 {
+  height: 12px;
+}
+
+main.international-apirants .width-150 {
+  width: 150px;
+}
+
+main.international-apirants .br-20 {
+  border-radius: 20px;
+}
+
+main.international-apirants .br-10 {
+  border-radius: 10px;
+}
+
+main.international-apirants .br-25 {
+  border-radius: 25px;
+}
+
+main.international-apirants .btn-warning {
+  background: #e3a311;
+}
+
+main.international-apirants .width-92 {
+  width: 92%;
+}
+
+main.international-apirants .career-programs {
+  background: #adceff;
+}
+
+main.international-apirants .career-programs .red-text {
+  color: #e31e24;
+  word-spacing: 3px;
+}
+
+main.international-apirants .career-programs .right-section {
+  border-radius: 20px;
+}
+
+main.international-apirants .career-programs .right-section + p {
+  color: #001343;
+  font-size: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  word-spacing: 4px;
+}
+
+main.international-apirants .study-section {
+  background: #feffc5;
+}
+
+main.international-apirants .study-section .btn-style {
+  background: #755912;
+  font-size: 48px;
+  border-radius: 20px;
+}
+
+main.international-apirants .study-section .text-study {
+  color: #434400;
+  width: 64.5%;
+  margin: auto;
+}
+
+main.international-apirants .study-section .text-study span {
+  padding-right: 14.1px;
+}
+
+main.international-apirants .study-section.extended {
+  background: #e9d7c3;
+}
+
+main.international-apirants .study-section.extended .btn-style {
+  background: #4b0303;
+}
+
+main.international-apirants .study-section.extended .text-study {
+  color: #a05400;
+}
+
+main.international-apirants .study-section.extended .btn-warning {
+  background: #9b691f;
+}
+
+main.international-apirants .study-section.extended .btn-warning + p {
+  color: #9b691f;
+}
+
+main.international-apirants .primary-btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+main.international-apirants .student-facilities {
+  background: #cfffd0;
+}
+
+main.international-apirants .student-facilities.exteded {
+  background: #730000;
+}
+
+main.international-apirants .student-facilities.exteded .btn {
+  color: #730000;
+}
+
+main.international-apirants .student-facilities.exteded .fw-bolder {
+  font-weight: 900 !important;
+}
+
+main.international-apirants .student-facilities .text-grey {
+  color: #bebebe;
+}
+
+main.international-apirants #staticBackdrop .modal-dialog {
+  max-width: initial;
+  height: 100%;
+  min-height: initial;
+}
+
+main.international-apirants .carousel-dark .carousel-indicators {
+  margin-right: 0;
+  margin-left: 0;
+  height: 110px;
+  bottom: -32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.international-apirants .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  margin-right: 140px;
+  margin-left: 140px;
+  opacity: 1;
+}
+
+main.international-apirants .carousel-dark .carousel-indicators [data-bs-target].active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  background: url(./../../assets/images/page-2-sec1-b.png);
+  left: -30px;
+  top: -30px;
+}
+
+main.international-apirants .carousel-dark .carousel-indicators [data-bs-target]:not(:last-child)::after {
+  content: "";
+  height: 12px;
+  width: 150px;
+  background: #fff;
+  position: absolute;
+  left: 112px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50px;
+}
+
+main.international-apirants.learning-path .home-hero.learning-bg p, main.international-apirants.learning-path .home-hero.discover-bg p {
+  font-family: roboto-regular;
+  color: #243665;
+}
+
+main.international-apirants.learning-path .learning-bg {
+  background: url(./../../assets/images/page-7-discover.svg);
+}
+
+main.international-apirants.learning-path .bg-c-discover {
+  background: #FFD6E7;
+}
+
+main.international-apirants.learning-path .btn-magenta {
+  background: #D959D2;
+}
+
+main.international-apirants.learning-path .btn-violate {
+  background: #7B55CC;
+}
+
+main.international-apirants.learning-path .btn-blue {
+  background: #4767BE;
+}
+
+main.international-apirants.learning-path .btn-skyblue {
+  background: #2982A0;
+}
+
+main.international-apirants.learning-path .text-blue {
+  color: #1F3C88;
+}
+
+main.international-apirants.learning-path .bg-dark-blue {
+  background: #1F3C88;
+}
+
+main.international-apirants.learning-path .custom-adjust img {
+  -webkit-transform: scale(0.8) translateY(-6px);
+          transform: scale(0.8) translateY(-6px);
+}
+
+main.international-apirants.learning-path .custom-adjust.extended img {
+  -webkit-transform: scale(1) translateY(41px);
+          transform: scale(1) translateY(41px);
+}
+
+main.international-apirants.learning-path .commitment .scale {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+main.international-apirants.learning-path .commitment .transform-translate {
+  -webkit-transform: scale(1) translateY(41px);
+          transform: scale(1) translateY(41px);
+}
+
+main.international-apirants.discover-purposes .home-hero.discover-bg {
+  background-image: url(./../../assets/images/page-6-discover-purpose-bg.svg);
+  background-position: right bottom 22px;
+}
+
+main.international-apirants.discover-purposes .home-hero.discover-bg h3 {
+  color: #243665;
+}
+
+main.international-apirants.discover-purposes .home-hero.discover-bg button {
+  margin: auto 0 auto auto;
+}
+
+main.international-apirants.discover-purposes .btn-bg-blue {
+  background: #016BE0;
+}
+
+main.international-apirants.discover-purposes .btn-bg-brawn {
+  background: #DA4412;
+}
+
+main.international-apirants.discover-purposes .story-text {
+  border: 2px solid #000000;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main.international-apirants.discover-purposes .text-light-blue {
+  color: #03039c;
+}
+
+main.international-apirants.discover-purposes .bg-dark-violet {
+  background: #6A2277;
+}
+
+main.international-apirants.discover-purposes .br-10-0 {
+  border-radius: 10px 0;
+}
+
+main.international-apirants.discover-purposes blockquote {
+  background-image: url(./../../assets/images/left-bottom.svg), url(./../../assets/images/top-right.svg);
+  padding: 42px 42px 190px 30px;
+  background-size: 85%, 80%;
+  font-size: 16px;
+  background-position: left 0px top 74%, top 0px right 0px;
+  background-repeat: no-repeat;
+  text-align: justify;
+  position: relative;
+}
+
+main.international-apirants.discover-purposes blockquote p:first-child::first-letter {
+  padding-left: 10%;
+}
+
+main.international-apirants.discover-purposes blockquote::before {
+  content: url(./../../assets/images/double-in-start.PNG);
+  position: absolute;
+  top: -27px;
+  left: -31px;
+}
+
+main.international-apirants.discover-purposes blockquote::after {
+  content: url(./../../assets/images/double-in-end.PNG);
+  position: absolute;
+  bottom: 23%;
+  right: -41px;
+}
+
+main.international-apirants.discover-purposes .educational-services {
+  padding: 10px;
+  background: linear-gradient(112deg, #B61256, #DC8EAE, #FFFFFF, #E5ABC3, #E5ABC3);
+}
+
+main.international-apirants.discover-purposes .educational-services > div {
+  border-radius: 15px/18px;
+}
+
+main.international-apirants.discover-purposes .why-canada .transformed {
+  -webkit-transform: translateY(-17px);
+          transform: translateY(-17px);
+}
+
+main.international-apirants.discover-purposes .bg-pinkish-magenta {
+  background: #C952DF;
+}
+
+main.international-apirants.discover-purposes .bg-light-sky-blue {
+  background: #E8F0FE;
+}
+
+main.international-apirants.discover-purposes .h-40 {
+  height: calc(100% - 252px);
+  font-size: 20px;
+}
+
+main.countries .countries-bg {
+  background: url(./../../assets/images/canada-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.countries .country-title {
+  font-size: 48px;
+  background: #001F5B;
+  padding: 2.39rem 0;
+}
+
+main.countries .country-bg-c {
+  background: #D3F4FF;
+}
+
+main.countries .country-bg-c h3 {
+  font-size: 3.75rem;
+}
+
+main.about-common h1 {
+  font-size: 2.25rem;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+main.about-common h1::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background: #000000;
+  width: 149px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 25px;
+}
+
+main.about-common .featured-news {
+  background: #FFD6E7;
+}
+
+main.about-common .featured-news .custom-card {
+  height: 423px;
+  background: #E8F1FF;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  max-width: 365px;
+}
+
+main.about-common .blog h1 {
+  color: #FF0069;
+  letter-spacing: normal;
+  background: -webkit-gradient(linear, left bottom, left top, from(#D4DFFB), to(#D4DFFB)), #FFFFFF;
+  background: linear-gradient(0deg, #D4DFFB, #D4DFFB), #FFFFFF;
+}
+
+main.about-common .blog h1::after {
+  content: none;
+}
+
+main.about-common .blog .blog-card {
+  height: 250px;
+  max-width: 340px;
+  border-radius: 20px;
+  background: #C4C4C4;
+  margin: 25px auto;
+}
+
+main.about-common .blog h3 {
+  font-size: 2.25rem;
+  border-radius: 10px;
+}
+
+main.about-common .blog.extended {
+  background: #D28A39;
+}
+
+main.about-common .management {
+  background: #A2B6EB;
+}
+
+main.about-common .management h2 {
+  border-radius: 10px;
+}
+
+main.about-common .management .person {
+  height: 248px;
+  width: 248px;
+  background: #C4C4C4;
+  margin: auto;
+}
+
+main.about-common .management h4 {
+  font-size: 2.25rem;
+}
+
+main.about-common .management .experts-voice h2 {
+  font-size: 3rem;
+}
+
+main.about-common .management .experts-voice p {
+  text-align: justify;
+}
+
+main.about-common .management .experts-voice p::first-letter {
+  padding-left: 3.3rem;
+}
+
+main .header .top-bar {
+  background-color: #243665;
+  padding: 6px 0 10px;
+}
+
+main .header .top-bar .top-bar-left img {
+  width: 15px;
+  height: 15px;
+}
+
+main .header .top-bar .top-bar-left .top-bar-whatsapp a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  font-family: roboto-medium;
+  font-size: 10px;
+}
+
+main .header .top-bar .top-bar-right ul li {
+  display: inline-block;
+}
+
+main .header .top-bar .top-bar-right ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-family: roboto-medium;
+  font-size: 10px;
+}
+
+main .header .top-bar .top-bar-right ul li a span {
+  margin-right: 10px;
+}
+
+main .header .main-nav {
+  padding: 24px 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+          box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+main .header .main-nav .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .header .main-nav .navbar-nav .nav-item a {
+  font-family: roboto-bold;
+  font-size: 14px;
+  color: #243665;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+main .header .main-nav .navbar-nav .nav-item.user-profile {
+  margin-left: 25px;
+}
+
+main .home-hero {
+  height: calc(100vh - 190px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .home-hero.home-hero-bg {
+  background-image: url(../images/home-hero-bg.svg);
+}
+
+main .home-hero h2 {
+  font-family: roboto-bold;
+  font-size: 3rem;
+  color: #243665;
+  margin-bottom: 60px;
+}
+
+main .home-hero p {
+  font-family: roboto-medium-italic;
+  font-size: 28px;
+  color: #E31E24;
+}
+
+main .home-hero .font-family-style-normal {
+  font-family: roboto-bold;
+}
+
+main .btn-size-32 {
+  font-size: 32px;
+}
+
+main .online-booking {
+  background-color: #16AAB9;
+  padding: 143px 0;
+}
+
+main .online-booking .booking-bg {
+  background-image: url(../images/home-sec-2.png);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 485px;
+}
+
+main .online-booking .booking-bg ul {
+  margin-bottom: 3rem;
+}
+
+main .online-booking .booking-bg ul li {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+main .online-booking .booking-bg ul li > span {
+  background-color: #fff;
+  height: 53px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+main .online-booking .booking-bg ul li > span .text {
+  font-family: roboto-medium-italic;
+  font-size: 30px;
+  padding: 0 18px;
+}
+
+main .online-booking .booking-bg ul li:first-child .img {
+  vertical-align: top;
+}
+
+main .online-booking .booking-bg ul li:first-child img {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 1px 0;
+}
+
+main .online-booking .booking-bg ul li:first-child .text {
+  color: #243665;
+}
+
+main .online-booking .booking-bg ul li:nth-child(2) > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px;
+}
+
+main .online-booking .booking-bg ul li:nth-child(2) .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #E31E24;
+  border-radius: 10px;
+}
+
+main .online-booking .booking-bg ul li:nth-child(2) .text {
+  color: #E31E24;
+}
+
+main .online-booking .booking-bg ul li:nth-child(3) > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px;
+}
+
+main .online-booking .booking-bg ul li:nth-child(3) .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+main .online-booking .booking-bg ul li:nth-child(3) .text {
+  color: #000;
+}
+
+main .online-booking .booking-bg .common-btn {
+  background-color: #58019C;
+  color: #fff;
+}
+
+main .services {
+  background-color: #FFBFDA;
+  padding: 36px 0 110px;
+}
+
+main .services .title {
+  width: 490px;
+  display: inline-block;
+  background-color: #FF0000;
+  padding: 16px;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 65px;
+}
+
+main .services .title h2 {
+  font-family: roboto-bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+main .services .services-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .services .services-card .card {
+  width: 363px;
+  margin: 0 75px;
+  border: 3px solid #001030;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 25px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .services .services-card .card img {
+  width: 303px;
+  height: 267px;
+}
+
+main .services .services-card .card h3 {
+  color: #E31E24;
+  font-family: roboto-bold;
+  font-size: 26px;
+  width: 66%;
+  margin: 1rem 0;
+}
+
+main .connect-us {
+  background-color: #C2F8FF;
+  padding: 36px 0 110px;
+}
+
+main .connect-us h1 {
+  font-family: roboto-bold-italic;
+  font-size: 32px;
+  color: #002227;
+  margin: 0;
+}
+
+main .connect-us ul li {
+  font-family: roboto-medium;
+  font-size: 32px;
+  color: #002227;
+}
+
+main .connect-us .common-btn {
+  background-color: #005460;
+  color: #fff;
+}
+
+main .consult-us {
+  background-color: #DFE2FF;
+  padding: 36px 0 110px;
+}
+
+main .consult-us h4 {
+  color: #084148;
+  font-family: roboto-bold;
+  font-size: 32px;
+}
+
+main .consult-us .common-btn {
+  background-color: #58019C;
+  color: #fff;
+  margin: 70px 0 150px;
+}
+
+main .consult-us .common-btn.orange-color {
+  background-color: #F77D48;
+  margin: 50px 0 15px;
+}
+
+main .student-assist {
+  background-color: #7036C4;
+  padding: 94px 220px;
+}
+
+main .student-assist p {
+  font-family: roboto-medium;
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+}
+
+main .career-choice {
+  background-color: #FFD4E6;
+  padding: 92px 0;
+}
+
+main .career-choice h4 {
+  color: #E31E24;
+  font-family: roboto-bold-italic;
+  font-size: 36px;
+}
+
+main .career-choice p {
+  color: #001F5B;
+  font-family: roboto-medium-italic;
+  font-size: 32px;
+}
+
+main .career-choice .common-btn {
+  background-color: #EB297A;
+  color: #fff;
+  padding: 21px 50px;
+}
+
+main .international-exp {
+  background-color: #FFDD9F;
+  padding: 92px 0;
+}
+
+main .international-exp .label-ribben {
+  background-color: #243665;
+  color: #fff;
+}
+
+main .international-exp p {
+  font-family: roboto-regular;
+  font-size: 32px;
+  color: #001F5B;
+}
+
+main .international-exp ul li {
+  font-family: roboto-medium-italic;
+  font-size: 32px;
+  color: #2E1E00;
+}
+
+main .international-exp .common-btn {
+  background-color: #5F3D00;
+  color: #fff;
+}
+
+main .recruitment-agent {
+  background-color: #9BFDFF;
+  padding: 92px 0;
+}
+
+main .recruitment-agent .label-ribben {
+  background-color: #7036C4;
+  color: #fff;
+}
+
+main .recruitment-agent h3 {
+  font-family: roboto-bold-italic;
+  font-size: 36px;
+  color: #001030;
+}
+
+main .recruitment-agent p {
+  font-family: roboto-regular;
+  font-size: 32px;
+  color: #001030;
+}
+
+main .recruitment-agent .common-btn {
+  background-color: #001F5B;
+  color: #fff;
+}
+
+main .partner {
+  background-color: #017BA9;
+  padding: 92px 0;
+}
+
+main .partner h2 {
+  font-family: roboto-bold;
+  font-size: 48px;
+  color: #E31E24;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+main .partner p {
+  font-family: roboto-medium;
+  font-size: 32px;
+  color: #fff;
+}
+
+main .partner .common-btn {
+  background-color: #37465C;
+  color: #fff;
+}
+
+main .partner img {
+  margin: 30px 0;
+}
+
+main .footer {
+  background-color: #243665;
+  padding: 45px 0 110px;
+}
+
+main .footer h3 {
+  font-family: roboto-medium;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+main .footer label {
+  font-family: roboto-medium;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+main .footer span {
+  font-family: roboto-medium;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+main .footer a {
+  font-family: roboto-medium;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+main .footer .address div {
+  margin-bottom: 16px;
+}
+
+main .footer .news .input-group {
+  position: relative;
+}
+
+main .footer .news .input-group .form-control {
+  border: 1px solid #C5C5C5;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px !important;
+  height: 42px;
+}
+
+main .footer .news .input-group .form-control ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+  /* Firefox */
+}
+
+main .footer .news .input-group .form-control :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+  /* Firefox */
+}
+
+main .footer .news .input-group .form-control ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+  /* Firefox */
+}
+
+main .footer .news .input-group .form-control ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+  /* Firefox */
+}
+
+main .footer .news .input-group .form-control :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main .footer .news .input-group .form-control ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main .footer .news .input-group .btn {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  right: 3px;
+  top: 3px;
+  background-color: #C5C5C5;
+  border-radius: 3px !important;
+  padding: 0;
+}
+
+main .footer .news .input-group .btn img {
+  margin-top: -4px;
+}
+
+main .footer .social-ico {
+  margin-bottom: 25px;
+}
+
+main .footer .social-ico a {
+  color: #fff;
+  opacity: 1;
+  margin-left: 20px;
+}
+
+main .programs {
+  background-color: #C8DCFD;
+  padding: 92px 200px;
+}
+
+main .programs .card {
+  width: 350px;
+  display: inline-block;
+  border-radius: 15px;
+  border: 0;
+  margin-bottom: 100px;
+}
+
+main .programs .card .img {
+  width: 350px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .programs .card .title {
+  width: 350px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 0 70px;
+}
+
+main .programs .card .title h3 {
+  font-family: roboto-medium;
+  font-size: 24px;
+}
+
+main .programs .common-btn {
+  background-color: #243665;
+  color: #fff;
+}
+
+@media screen and (max-width: 1399px) {
+  main .online-booking .booking-bg {
+    background-size: 40%;
+  }
+  main.international-apirants .home-hero.int-service-bg {
+    background-size: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .online-booking .booking-bg ul li > span .text {
+    font-size: 22px;
+  }
+  main .home-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  main .home-hero p {
+    font-size: 22px;
+  }
+  .common-btn,
+  main .career-choice .common-btn,
+  main .btn-size-32 {
+    border-radius: 12px;
+    font-size: 22px;
+    padding: 8px 28px;
+  }
+  main .online-booking .booking-bg {
+    height: 380px;
+  }
+  main .services .title h2,
+  main .career-choice p,
+  main .international-exp p,
+  main .international-exp ul li {
+    font-size: 22px;
+  }
+  main .services .title {
+    width: 315px;
+  }
+  main .services,
+  main .consult-us,
+  main .connect-us,
+  main .student-assist,
+  main .career-choice,
+  main .international-exp,
+  main .recruitment-agent,
+  main .partner,
+  main .online-booking,
+  main.international-apirants .career-programs {
+    padding: 36px 0 55px;
+  }
+  main .connect-us h1,
+  main .connect-us ul li,
+  main .career-choice h4,
+  main .consult-us h4,
+  main .recruitment-agent p,
+  main .partner p {
+    font-size: 24px;
+  }
+  main .consult-us .common-btn {
+    background-color: #58019C;
+    color: #fff;
+    margin: 70px 0 0;
+  }
+  main .student-assist p,
+  main .recruitment-agent h3,
+  main .partner h2 {
+    font-size: 32px;
+  }
+  .label-ribben {
+    border-radius: 14px 0;
+    font-size: 26px;
+    padding: 8px 20px;
+  }
+  main .programs {
+    padding: 92px 96px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main .header .top-bar .top-bar-left .top-bar-whatsapp a,
+  main .header .top-bar .top-bar-right ul li a {
+    padding: 0 3px;
+  }
+  .top-bar-right {
+    text-align: right;
+  }
+  main .header .main-nav {
+    padding: 8px 0;
+  }
+  main .header .main-nav .navbar-brand img {
+    width: 70px;
+  }
+  main .header .main-nav .navbar-nav {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  main .services,
+  main .consult-us,
+  main .connect-us,
+  main .student-assist,
+  main .career-choice,
+  main .international-exp,
+  main .recruitment-agent,
+  main .partner,
+  main .online-booking,
+  main.international-apirants .career-programs {
+    padding: 30px 0 36px;
+  }
+  main .online-booking .booking-bg ul li > span {
+    height: 35px;
+  }
+  main .online-booking .booking-bg ul li:first-child img,
+  main .online-booking .booking-bg ul li:nth-child(2) .img,
+  main .online-booking .booking-bg ul li:nth-child(3) .img {
+    width: 35px;
+    height: 35px;
+  }
+  main .online-booking .booking-bg ul li:nth-child(2) .img img,
+  main .online-booking .booking-bg ul li:nth-child(3) .img img {
+    width: 20px;
+  }
+  main .online-booking .booking-bg {
+    height: auto;
+  }
+  main .services .services-card .card img {
+    width: auto;
+    height: auto;
+  }
+  main .services .services-card {
+    display: block;
+  }
+  main .services .services-card .card {
+    margin: 35px 48px;
+    width: auto;
+  }
+  main .services .title {
+    margin: 0;
+  }
+  main .student-assist p,
+  main .partner p {
+    font-size: 20px;
+  }
+  .international-exp img {
+    margin-top: 30px;
+  }
+  main .partner h2,
+  main.international-apirants .online-booking.online-booking-int-asp h2,
+  main.international-apirants .fs-36 {
+    font-size: 24px;
+  }
+  main.international-apirants .fw-500,
+  main.international-apirants .online-booking.online-booking-int-asp .tructed-text,
+  main.international-apirants .career-programs .right-section,
+  main.international-apirants .primary-btn {
+    font-size: 24px !important;
+  }
+  main .footer .social-ico a {
+    margin-left: 7px;
+  }
+  main .footer {
+    padding: 20px 0 20px;
+  }
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target] {
+    margin-right: 82px;
+    margin-left: 82px;
+  }
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target]:not(:last-child)::after {
+    width: 82px;
+    left: 90px;
+  }
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target].active::before {
+    top: -23px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  main.international-apirants .study-section .btn-style,
+  main.international-apirants .fs-48 {
+    font-size: 28px;
+  }
+  main .programs {
+    padding: 50px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .home-hero.home-hero-bg,
+  main .online-booking .booking-bg,
+  main.international-apirants .home-hero.int-service-bg,
+  main.international-apirants .int-recruiting-agent {
+    background: none;
+  }
+  main .online-booking .booking-bg ul li > span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .services .title h2,
+  .common-btn,
+  main .consult-us h4,
+  main .home-hero p,
+  main .online-booking .booking-bg ul li > span .text,
+  .common-btn,
+  main .career-choice .common-btn,
+  main .international-exp p,
+  main .international-exp ul li,
+  main.international-apirants .fs-48 {
+    font-size: 16px;
+  }
+  main .services .services-card .card {
+    margin: 35px 0;
+  }
+  main .consult-us .common-btn {
+    margin: 25px 0;
+  }
+  main .online-booking .booking-bg {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .connect-us h1,
+  main .connect-us ul li,
+  main .career-choice h4,
+  main .consult-us h4,
+  main .recruitment-agent p,
+  main .partner p,
+  main .career-choice p,
+  .label-ribben,
+  main .partner h2,
+  main.international-apirants .fs-36,
+  main .programs .card .title h3 {
+    font-size: 18px;
+  }
+  main .programs .card {
+    margin-bottom: 50px;
+  }
+  main .programs .card .title {
+    height: 100px;
+  }
+  main.international-apirants .fw-500,
+  main.international-apirants .online-booking.online-booking-int-asp .tructed-text {
+    font-size: 18px !important;
+    margin: 0;
+  }
+  main .consult-us .common-btn.orange-color {
+    margin: 10px 0;
+  }
+  .career-choice img,
+  .recruitment-agent img,
+  .international-exp img,
+  .connect-us img {
+    display: none;
+  }
+  main .recruitment-agent h3 {
+    font-size: 24px;
+  }
+  .partner .d-flex {
+    display: block !important;
+  }
+  main .footer .social-ico {
+    margin-top: 20px;
+  }
+  main .top-bar-right {
+    text-align: left;
+  }
+  main .header .top-bar .container > .d-flex {
+    display: block !important;
+  }
+  main .online-booking .booking-bg ul li:first-child .text {
+    line-height: 2;
+  }
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target] {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target]:not(:last-child)::after {
+    width: 50px;
+    left: 75px;
+  }
+  .student-facilities img {
+    display: none;
+  }
+  main.international-apirants .study-section .btn-style {
+    font-size: 24px !important;
+    margin-top: 20px !important;
+  }
+  .common-peach-section .title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main .online-booking .booking-bg ul li > span .text {
+    font-size: 12px;
+  }
+  main .online-booking .booking-bg ul li:first-child .text {
+    line-height: 3;
+  }
+  main.international-apirants .primary-btn {
+    font-size: 16px !important;
+  }
+  main .programs .card,
+  main .programs .card .title,
+  main .programs .card .img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

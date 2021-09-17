@@ -1,0 +1,365 @@
+@media screen and (max-width:1399px) {
+  main .online-booking .booking-bg {
+    background-size: 40%;
+  }
+
+  main.international-apirants .home-hero.int-service-bg {
+    background-size: 90%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  main .online-booking .booking-bg ul li>span .text {
+    font-size: 22px;
+  }
+
+  main .home-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  main .home-hero p {
+    font-size: 22px;
+  }
+
+  .common-btn,
+  main .career-choice .common-btn,
+  main .btn-size-32 {
+    border-radius: 12px;
+    font-size: 22px;
+    padding: 8px 28px;
+  }
+
+  main .online-booking .booking-bg {
+    height: 380px;
+  }
+
+  main .services .title h2,
+  main .career-choice p,
+  main .international-exp p,
+  main .international-exp ul li {
+    font-size: 22px;
+  }
+
+  main .services .title {
+    width: 315px;
+  }
+
+  main .services,
+  main .consult-us,
+  main .connect-us,
+  main .student-assist,
+  main .career-choice,
+  main .international-exp,
+  main .recruitment-agent,
+  main .partner,
+  main .online-booking,
+  main.international-apirants .career-programs {
+    padding: 36px 0 55px;
+  }
+
+  main .connect-us h1,
+  main .connect-us ul li,
+  main .career-choice h4,
+  main .consult-us h4,
+  main .recruitment-agent p,
+  main .partner p {
+    font-size: 24px;
+  }
+
+  main .consult-us .common-btn {
+    background-color: #58019C;
+    color: #fff;
+    margin: 70px 0 0;
+  }
+
+  main .student-assist p,
+  main .recruitment-agent h3,
+  main .partner h2 {
+    font-size: 32px;
+  }
+
+  .label-ribben {
+    border-radius: 14px 0;
+    font-size: 26px;
+    padding: 8px 20px;
+  }
+
+  main .programs {
+    padding: 92px 96px;
+  }
+}
+
+@media screen and (max-width:992px) {
+
+  main .header .top-bar .top-bar-left .top-bar-whatsapp a,
+  main .header .top-bar .top-bar-right ul li a {
+    padding: 0 3px;
+  }
+
+  .top-bar-right {
+    text-align: right;
+  }
+
+  main .header .main-nav {
+    padding: 8px 0;
+  }
+
+  main .header .main-nav .navbar-brand img {
+    width: 70px;
+  }
+
+  main .header .main-nav .navbar-nav {
+    align-items: flex-end;
+  }
+
+  main .services,
+  main .consult-us,
+  main .connect-us,
+  main .student-assist,
+  main .career-choice,
+  main .international-exp,
+  main .recruitment-agent,
+  main .partner,
+  main .online-booking,
+  main.international-apirants .career-programs {
+    padding: 30px 0 36px;
+  }
+
+  main .online-booking .booking-bg ul li>span {
+    height: 35px;
+  }
+
+  main .online-booking .booking-bg ul li:first-child img,
+  main .online-booking .booking-bg ul li:nth-child(2) .img,
+  main .online-booking .booking-bg ul li:nth-child(3) .img {
+    width: 35px;
+    height: 35px;
+  }
+
+  main .online-booking .booking-bg ul li:nth-child(2) .img img,
+  main .online-booking .booking-bg ul li:nth-child(3) .img img {
+    width: 20px;
+  }
+
+  main .online-booking .booking-bg {
+    height: auto;
+  }
+
+  main .services .services-card .card img {
+    width: auto;
+    height: auto;
+  }
+
+  main .services .services-card {
+    display: block;
+  }
+
+  main .services .services-card .card {
+    margin: 35px 48px;
+    width: auto;
+  }
+
+  main .services .title {
+    margin: 0;
+  }
+
+  main .student-assist p,
+  main .partner p {
+    font-size: 20px;
+  }
+
+  .international-exp img {
+    margin-top: 30px;
+  }
+
+  main .partner h2,
+  main.international-apirants .online-booking.online-booking-int-asp h2,
+  main.international-apirants .fs-36 {
+    font-size: 24px;
+  }
+
+  main.international-apirants .fw-500,
+  main.international-apirants .online-booking.online-booking-int-asp .tructed-text,
+  main.international-apirants .career-programs .right-section,
+  main.international-apirants .primary-btn {
+    font-size: 24px !important;
+  }
+
+  main .footer .social-ico a {
+    margin-left: 7px;
+  }
+
+  main .footer {
+    padding: 20px 0 20px;
+  }
+
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target] {
+    margin-right: 82px;
+    margin-left: 82px;
+  }
+
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target]:not(:last-child)::after {
+    width: 82px;
+    left: 90px;
+  }
+
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target].active::before {
+    top: -23px;
+    transform: scale(0.7);
+  }
+
+  main.international-apirants .study-section .btn-style,
+  main.international-apirants .fs-48 {
+    font-size: 28px;
+  }
+
+  main .programs {
+    padding: 50px 0px;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  main .home-hero.home-hero-bg,
+  main .online-booking .booking-bg,
+  main.international-apirants .home-hero.int-service-bg,
+  main.international-apirants .int-recruiting-agent {
+    background: none;
+  }
+
+  main .online-booking .booking-bg ul li>span {
+    display: flex
+  }
+
+  main .services .title h2,
+  .common-btn,
+  main .consult-us h4,
+  main .home-hero p,
+  main .online-booking .booking-bg ul li>span .text,
+  .common-btn,
+  main .career-choice .common-btn,
+  main .international-exp p,
+  main .international-exp ul li,
+  main.international-apirants .fs-48 {
+    font-size: 16px;
+  }
+
+  main .services .services-card .card {
+    margin: 35px 0;
+  }
+
+  main .consult-us .common-btn {
+    margin: 25px 0;
+  }
+
+  main .online-booking .booking-bg {
+    justify-content: center;
+  }
+
+  main .connect-us h1,
+  main .connect-us ul li,
+  main .career-choice h4,
+  main .consult-us h4,
+  main .recruitment-agent p,
+  main .partner p,
+  main .career-choice p,
+  .label-ribben,
+  main .partner h2,
+  main.international-apirants .fs-36,
+  main .programs .card .title h3 {
+    font-size: 18px;
+  }
+
+  main .programs .card {
+    margin-bottom: 50px;
+
+    .title {
+      height: 100px;
+    }
+  }
+
+  main.international-apirants .fw-500,
+  main.international-apirants .online-booking.online-booking-int-asp .tructed-text {
+    font-size: 18px !important;
+    margin: 0;
+  }
+
+  main .consult-us .common-btn.orange-color {
+    margin: 10px 0;
+  }
+
+  .career-choice img,
+  .recruitment-agent img,
+  .international-exp img,
+  .connect-us img {
+    display: none;
+  }
+
+  main .recruitment-agent h3 {
+    font-size: 24px;
+  }
+
+  .partner .d-flex {
+    display: block !important;
+  }
+
+  main .footer .social-ico {
+    margin-top: 20px;
+  }
+
+  main .top-bar-right {
+    text-align: left;
+  }
+
+  main .header .top-bar .container>.d-flex {
+    display: block !important;
+  }
+
+  main .online-booking .booking-bg ul li:first-child .text {
+    line-height: 2;
+  }
+
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target] {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  main.international-apirants .carousel-dark .carousel-indicators [data-bs-target]:not(:last-child)::after {
+    width: 50px;
+    left: 75px;
+  }
+
+  .student-facilities img {
+    display: none;
+  }
+
+  main.international-apirants .study-section .btn-style {
+    font-size: 24px !important;
+    margin-top: 20px !important;
+  }
+
+  .common-peach-section .title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  main .online-booking .booking-bg ul li>span .text {
+    font-size: 12px;
+  }
+
+  main .online-booking .booking-bg ul li:first-child .text {
+    line-height: 3;
+  }
+
+  main.international-apirants .primary-btn {
+    font-size: 16px !important;
+  }
+
+  main .programs .card,
+  main .programs .card .title,
+  main .programs .card .img {
+    width: 100%;
+  }
+}

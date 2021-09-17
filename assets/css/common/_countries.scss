@@ -1,0 +1,19 @@
+main.countries {
+    .countries-bg {
+        background: url(./../../assets/images/canada-bg.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .country-title {
+        font-size: 48px;
+        background: #001F5B;
+        padding: 2.39rem 0;
+    }
+    .country-bg-c {
+        background: #D3F4FF;
+        h3 { 
+            font-size: 3.75rem;
+        }
+    }
+}
