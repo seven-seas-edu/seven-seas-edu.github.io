@@ -1290,7 +1290,7 @@ main .btn-size-32 {
 }
 
 main .online-booking {
-  background-color: #16AAB9;
+  background-color: #ADCEFF;
   padding: 143px 0;
 }
 
@@ -1408,22 +1408,22 @@ main .online-booking .booking-bg ul li:nth-child(3) .text {
 }
 
 main .online-booking .booking-bg .common-btn {
-  background-color: #58019C;
+  background-color: #01205B;
   color: #fff;
 }
 
 main .services {
-  background-color: #FFBFDA;
+  background-color: #E9D7C3;
   padding: 36px 0 110px;
 }
 
 main .services .title {
   width: 490px;
   display: inline-block;
-  background-color: #FF0000;
+  /* background-color: #FF0000; */
   padding: 16px;
   border-radius: 20px;
-  color: #fff;
+  /* color: #01205B; */
   margin-bottom: 65px;
 }
 
@@ -1431,10 +1431,11 @@ main .services .title h2 {
   font-family: roboto-bold;
   font-size: 48px;
   margin: 0;
+  /* color: #01205B; */
 }
 
 main .services .title h2 a {
-  color: #fff;
+  color: #01205B;
   text-decoration: none;
 }
 
@@ -1525,14 +1526,14 @@ main .consult-us .common-btn.orange-color {
 }
 
 main .student-assist {
-  background-color: #7036C4;
+  background-color: #CEACFF;
   padding: 94px 220px;
 }
 
 main .student-assist p {
   font-family: roboto-medium;
   font-size: 36px;
-  color: #fff;
+  color: #01205B;
   margin: 0;
 }
 
@@ -1614,16 +1615,16 @@ main .recruitment-agent .common-btn {
 }
 
 main .partner {
-  background-color: #017BA9;
+  background-color: #CCD9ED;
   padding: 92px 0;
 }
 
 main .partner h2 {
   font-family: roboto-bold;
   font-size: 48px;
-  color: #E31E24;
+  color: #01205B;
   display: inline-block;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 10px 20px;
   border-radius: 20px;
 }
@@ -1631,11 +1632,11 @@ main .partner h2 {
 main .partner p {
   font-family: roboto-medium;
   font-size: 32px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 main .partner .common-btn {
-  background-color: #37465C;
+  background-color: #01205B;
   color: #fff;
 }
 
