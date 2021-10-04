@@ -1,0 +1,109 @@
+main.paid-application {
+  section {
+    padding: 50px 0;
+
+    h4 {
+      font-family: $roboto-medium;
+      font-size: 24px;
+      margin-bottom: 37px;
+    }
+
+    .table {
+
+      tr th,
+      tr td {
+        font-family: $roboto-regular;
+        font-size: 16px;
+        color: #000;
+        font-weight: normal;
+      }
+
+      input[type=checkbox] {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+      }
+
+      thead {
+        background: #C4C4C4;
+      }
+
+      .btn {
+        width: 78px;
+        height: 22px;
+        background: #243665;
+        color: #fff;
+        padding: 0;
+        font-family: $roboto-medium;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+    }
+
+    .btn-outline-primary {
+      border: 2px solid #243665;
+      color: #243665;
+      font-family: $roboto-medium;
+      font-size: 14px;
+
+      &:hover {
+        background-color: #243665;
+        color: #fff;
+      }
+    }
+
+    .btn-primary {
+      border: 2px solid #243665;
+      background-color: #243665;
+      color: #fff;
+      font-family: $roboto-medium;
+      font-size: 14px;
+
+      &:hover {
+        background-color: #243665;
+        color: #fff;
+      }
+    }
+  }
+}
+
+main.contact-us {
+  .form {
+    background-color: #FFD6E7;
+
+    h4 {
+      color: #061846;
+      font-family: $roboto-medium;
+      font-size: 48px;
+      padding: 50px 0 100px;
+      background-color: transparent;
+      text-align: center;
+    }
+
+    label {
+      font-family: $roboto-medium;
+      font-size: 36px;
+      color: #001F5B;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 120px 0;
+      flex-wrap: wrap;
+
+      li {
+        margin-bottom: 20px;
+      }
+    }
+
+    .common-btn {
+      background-color: #005460;
+      color: #fff;
+    }
+
+    input[type=text] {
+      height: 48px;
+      margin-bottom: 1rem;
+    }
+  }
+}

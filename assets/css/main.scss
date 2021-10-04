@@ -3,6 +3,8 @@
 @import 'common/services';
 @import 'common/countries';
 @import 'common/about-common';
+@import 'common/auth-common';
+@import 'common/application';
 
 // home 
 main {
@@ -163,6 +165,11 @@ main {
         font-family: $roboto-bold;
         font-size: 48px;
         margin: 0;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
       }
     }
 
@@ -494,6 +501,10 @@ main {
           font-family: $roboto-medium;
           font-size: 24px;
         }
+      }
+
+      a {
+        text-decoration: none;
       }
     }
 

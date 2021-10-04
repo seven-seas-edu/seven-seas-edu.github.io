@@ -241,3 +241,23 @@ $roboto-medium-italic:roboto-medium-italic;
         }
     }
 }
+
+.auth-buttons{
+    .btn{
+        background-color: #243665;
+        border-radius: 20px;
+        color: #fff !important;
+        font-family: $roboto-regular !important;
+    }
+}
+#paginationTabs {
+    .page-item:not(.active) .page-link {
+        color: #005793;
+        font-weight: 500;
+    }
+    .page-item.active .page-link{
+        background: #005793;
+        border-color: #005793;
+        font-weight: 500;
+    }
+}
