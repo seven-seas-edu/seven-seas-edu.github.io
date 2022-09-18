@@ -1,13 +1,11 @@
 main.institutes {
     .institute-bg {
         background: url(./../../assets/images/page-institutes-hero.svg);
-        background-size: contain;
-        background-position: center center;
+        background-size: cover; 
     }
     .institutes-type-2-bg {
         background: url(./../../assets/images/page-institutes-type-2-bg.svg);
-        background-size: contain;
-        background-position: center center;
+        background-size: cover;
     }
     .industries-layout {
         background: #91aabb;
@@ -83,11 +81,6 @@ main.institutes {
                 font-weight: 600;
                 line-height: 1.1;
             }
-        }
-        @media (min-width: 576px) {
-            .custom-sm-6 {
-                width: 49%;
-            }
-        }
+        }         
     }
 }

@@ -6,6 +6,10 @@
   main.international-apirants .home-hero.int-service-bg {
     background-size: 90%;
   }
+
+  main .home-hero h2 {
+    font-size: 2.2rem;
+  }
 }
 
 @media screen and (max-width:1200px) {
@@ -87,6 +91,20 @@
 
   main .programs {
     padding: 92px 96px;
+  }
+
+  main.international-apirants.discover-purposes blockquote {
+    padding: 42px 42px 208px 30px;
+  }
+
+  main.institutes .university-list .badge p {
+    font-size: 18px !important;
+  }
+
+  main.user .sinup-details img.image-position {
+    left: 59px;
+    z-index: 1;
+    top: -56px;
   }
 }
 
@@ -217,6 +235,74 @@
   main .programs {
     padding: 50px 0px;
   }
+
+  main.international-apirants.discover-purposes .h-40 {
+    font-size: 16px;
+  }
+
+  main.international-apirants.discover-purposes .bg-pinkish-magenta,
+  main.international-apirants.learning-path .btn-violate,
+  main.international-apirants.learning-path .btn-skyblue,
+  main.institutes .university-list .badge p,
+  main.institutes .selected-countries .badge {
+    font-size: 16px !important;
+  }
+
+  main.institutes .dropdown button {
+    font-size: 25px;
+    padding: 15px !important;
+  }
+
+  main.institutes .dropdown button.active+.dropdown-menu {
+    top: 70px;
+  }
+
+  main.about-us .about-section>.d-flex {
+    flex-direction: column;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:first-child .list-group {
+    padding: 10px 25px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:first-child .list-group img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:first-child .list-group {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:first-child .list-group a {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child>h1 {
+    padding: 20px;
+    font-size: 26px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container {
+    padding: 0 20px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-gallery {
+    padding-bottom: 50px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-gallery .carousel-control-prev-icon,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-gallery .carousel-control-next-icon {
+    width: 30px;
+    height: 63px;
+  }
+
+  main.user .sinup-details img.image-position {
+    display: none;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -224,7 +310,11 @@
   main .home-hero.home-hero-bg,
   main .online-booking .booking-bg,
   main.international-apirants .home-hero.int-service-bg,
-  main.international-apirants .int-recruiting-agent {
+  main.international-apirants .int-recruiting-agent,
+  main.international-apirants.discover-purposes .home-hero.discover-bg,
+  main.international-apirants.discover-purposes blockquote,
+  main.international-apirants.learning-path .learning-bg,
+  main.user .bg-login {
     background: none;
   }
 
@@ -267,7 +357,10 @@
   .label-ribben,
   main .partner h2,
   main.international-apirants .fs-36,
-  main .programs .card .title h3 {
+  main .programs .card .title h3,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .list-title,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-programs-item h2,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-programs-item a {
     font-size: 18px;
   }
 
@@ -292,12 +385,20 @@
   .career-choice img,
   .recruitment-agent img,
   .international-exp img,
-  .connect-us img {
+  .connect-us img,
+  main.international-apirants.discover-purposes blockquote::before,
+  main.international-apirants.discover-purposes blockquote::after {
     display: none;
   }
 
-  main .recruitment-agent h3 {
-    font-size: 24px;
+  main.international-apirants.discover-purposes blockquote {
+    padding: 0;
+  }
+
+  main .recruitment-agent h3,
+  main.about-common .management h4,
+  main.about-common .management p {
+    font-size: 24px !important;
   }
 
   .partner .d-flex {
@@ -330,17 +431,65 @@
     left: 75px;
   }
 
-  .student-facilities img {
+  .student-facilities img,
+  main.about-us .about-section>.d-flex .d-col:first-child {
     display: none;
   }
 
-  main.international-apirants .study-section .btn-style {
+  main.international-apirants .study-section .btn-style,
+  main.contact-us .form label {
     font-size: 24px !important;
     margin-top: 20px !important;
   }
 
-  .common-peach-section .title {
+  .common-peach-section .title,
+  main.about-common .management .experts-voice h2,
+  main.countries .country-title,
+  main.countries .country-bg-c h3 {
     font-size: 36px;
+  }
+
+  main.international-apirants.learning-path .home-hero.learning-bg p {
+    font-size: 16px !important;
+  }
+
+  main.about-common h1 {
+    font-size: 1.5rem;
+    align-items: center;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container .list-title,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-gallery {
+    padding: 10px 0;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container p,
+  main.about-us .about-section>.d-flex .d-col:last-child .container p strong {
+    font-size: 14px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container .input-group {
+    margin-bottom: 20px;
+  }
+
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-programs-item h4,
+  main.about-us .about-section>.d-flex .d-col:last-child .container .about-programs-item label {
+    margin-bottom: 5px;
+  }
+
+  main.contact-us .form h4 {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  main.contact-us .form ul {
+    padding: 30px 0;
+  }
+  main.user .sinup-details-seps .form-wrapper .play-icons.d-flex{
+    bottom: -6em;
+    position: absolute;
+    right: 0px;
+    transform: scale(0.6);
   }
 }
 
@@ -353,13 +502,29 @@
     line-height: 3;
   }
 
-  main.international-apirants .primary-btn {
+  main.international-apirants .primary-btn,
+  main.about-common h1 {
     font-size: 16px !important;
   }
 
   main .programs .card,
   main .programs .card .title,
   main .programs .card .img {
+    width: 100%;
+  }
+
+  main.about-common h1 {
+    font-size: 16px !important;
+
+    img {
+      width: 40px;
+      padding: 10px !important;
+    }
+  }
+
+  main.institutes .dropdown button {
+    font-size: 18px;
+    padding: 15px !important;
     width: 100%;
   }
 }

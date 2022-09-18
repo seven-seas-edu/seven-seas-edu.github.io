@@ -43,7 +43,7 @@
             <nav class="main-nav navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="../../index.html">
-                        <img src="../../assets/images/logo.svg" alt="">
+                        <img src="../../assets/images/logo.svg" class="img-fluid" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -53,13 +53,14 @@
                     <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto flex-nowrap">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./../institutes/institutes.html">Institutes</a>
+                                <a class="nav-link active" aria-current="page"
+                                    href="../institutes/institutes.html">Institutes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../programs/programs.html">Programs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./../countries/countries.html">Countries</a>
+                                <a class="nav-link" href="../countries/countries.html">Countries</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -68,9 +69,11 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item"
-                                            href="./../services/international-aspirants.html">International Aspirants</a>
+                                            href="../services/international-aspirants.html">International
+                                            Aspirants</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="./../services/recruiting-agent.html">Recruiting Agent</a></li>
+                                    <li><a class="dropdown-item" href="../services/recruiting-agent.html">Recruiting
+                                            Agent</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -79,24 +82,36 @@
                                     About
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Our Story</a></li>
-                                    <li><a class="dropdown-item" href="#">Talk & Walk</a></li>
-                                    <li><a class="dropdown-item" href="./../about/management.html">Management</a></li>
-                                    <li><a class="dropdown-item" href="./../about/featured-news.html">News & Events</a></li>
-                                    <li><a class="dropdown-item" href="./../about/blog.html">BLOG</a></li>
-                                    <li><a class="dropdown-item" href="#">CONTACT US</a></li>
+                                    <li><a class="dropdown-item" href="../services/discover-purpose.html">Our
+                                            Story</a></li>
+                                    <li><a class="dropdown-item" href="../about/blog.html">Talk & Walk</a></li>
+                                    <li><a class="dropdown-item" href="../about/management.html">Management</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../about/featured-news.html">News &
+                                            Events</a></li>
+                                    <li><a class="dropdown-item" href="../about/blog-2.html">BLOG</a></li>
+                                    <li><a class="dropdown-item" href="../about/contact-us.html">CONTACT US</a>
+                                    </li>
                                 </ul>
                             </li>
+                            <li class="nav-item auth-buttons">
+                                <a class="btn mx-md-3" href="../authentication/signup-details.html">
+                                    Sign Up
+                                </a>
+                                <a class="btn" href="../authentication/user-login-details.html">
+                                    Login
+                                </a>
+                            </li>
                             <li class="nav-item user-profile">
-                                <a class="nav-link" href="#">
-                                    <img src="../../assets/images/user-s.png" alt="">
+                                <a class="nav-link" href="../authentication/signup-details.html">
+                                    <img src="../../assets/images/user-s.png" class="img-fluid" alt="">
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </header>     
+        </header>
         <section class="featured-news blog extended pb-2 pt-5">
             <div class="text-center pt-4">
                 <h3 class="d-inline-flex align-utems-center bg-white pt-1 pb-1 ps-5 pe-5 mb-5">Seven Seas Blog</h3>
@@ -104,50 +119,91 @@
             <div class="container pb-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-sm-10">
-                        <div class="row">
-                            <div class="col-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                        <div class="row pagination-list">
+                            <div class="col-sm-6 col-md-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 text-center ps-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 text-center ps-sm-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 ps-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 ps-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                        </div>                        
-                        <div class="row">
-                            <div class="col-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 text-center ps-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 text-center ps-sm-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 ps-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 ps-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                        </div> 
-                        <div class="row">
-                            <div class="col-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 text-center ps-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 text-center ps-sm-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 ps-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 ps-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                        </div> 
-                        <div class="row">
-                            <div class="col-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 text-center ps-sm-4 pe-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 text-center ps-sm-4 pe-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                            <div class="col-sm-4 ps-sm-4">
-                                <div class="blog-card"></div>
+                            <div class="col-sm-6 col-md-4 ps-sm-4">
+                                <div class="blog-card text-center">
+                                    <img src="../../assets/images/dummy.png" class="img-fluid">
+                                    <h5 class="py-3">Card title here</h5>
+                                </div>
                             </div>
-                        </div>                        
+                        </div>
+                        <div class="mt-4 pb-5" id="paginationTabs">
+                            <div class="row justify-content-md-between">
+                                <div class="col-12 text-center">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination justify-content-center">
+                        
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -200,6 +256,93 @@
         </footer>
     </main>
     <script src="../../assets/library/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        (() => {
+            const pTabs = document.querySelector("#paginationTabs ul");
+            const limit = 9;
+            let startVisibleCount = 0;
+            let endVisibleCount = limit;
+            let totalNodes = document.querySelectorAll(".pagination-list>div");
+            let totalTabs = Math.ceil(totalNodes.length / limit);
+            if(totalTabs<2){
+                document.querySelector("#paginationTabs").classList.add("d-none")
+            }
+            const showVisible = () => {
+                totalNodes.forEach((elm, index) => {
+                    elm.classList.add("d-none")
+                    if ((startVisibleCount <= index && index < endVisibleCount) && elm)
+                        elm.classList.remove("d-none")
+                });
+                console.log(startVisibleCount, endVisibleCount)
+            }
+            showVisible();
+            const appendNodes = () => {
+                let html = "";
+                for (let node = 0; node < totalTabs; node++) {
+                    html += `<li class="page-item"><button class="page-link" href="#">${node + 1}</button></li>`;
+                }
+                return html;
+            };
+            const _html = `
+                        <li class="page-item d-none"><button class="page-link" href="#">Previous</button></li>
+                        ${appendNodes()}
+                        <li class="page-item"><button class="page-link " href="#">Next</button></li>
+                    `;
+            pTabs.innerHTML = _html;
+            pTabs.children[1].classList.add("active")
+            document.querySelectorAll("#paginationTabs ul li button").forEach(res => {
+                res.addEventListener("click", (e) => {
+                    if (parseInt(e.currentTarget.textContent)) {
+                        manipulateClass(e);
+                    } else if (e.currentTarget.textContent === 'Next') {
+                        manipulateClass(e, 'Next');
+                    } else {
+                        manipulateClass(e, "Prev");
+                    }
+                }, false)
+            })
+            function manipulateClass(e, type = null) {
+                if (!type) {
+                    document.querySelectorAll("#paginationTabs ul li").forEach(res => res.classList.remove("active"))
+                    endVisibleCount = parseInt(e.currentTarget.textContent) * limit;
+                    startVisibleCount = endVisibleCount - limit;
+                    showVisible();
+                }
+                e.currentTarget.parentNode.classList.add("active")
+                let nodeCount = Array.from(document.querySelectorAll("#paginationTabs ul li"));
+                prevNext(e, type, nodeCount);
+                if (nodeCount.indexOf(e.currentTarget.parentNode) > 1 && type !== 'Prev')
+                    nodeCount[0].classList.remove("d-none");
+                else if (type !== 'Prev') nodeCount[0].classList.add("d-none")
+                if ((nodeCount.length - 2) === nodeCount.indexOf(e.currentTarget.parentNode) && type !== 'Next')
+                    nodeCount[nodeCount.length - 1].classList.add("d-none");
+                else if (type !== 'Next') nodeCount[nodeCount.length - 1].classList.remove("d-none")
+            }
+            function prevNext(e, type, nodeCount) {
+                if (type === 'Next') {
+                    startVisibleCount = endVisibleCount;
+                    endVisibleCount += limit;
+                    showVisible();
+                    document.querySelector("#paginationTabs ul li.active").nextSibling.classList.add("active")
+                    document.querySelector("#paginationTabs ul li.active").classList.remove("active")
+                    if ((nodeCount.length - 2) === nodeCount.indexOf(document.querySelector("#paginationTabs ul li.active"))) {
+                        nodeCount[nodeCount.length - 1].classList.remove("active")
+                        nodeCount[nodeCount.length - 1].classList.add("d-none")
+                    }
+                } else if (type === 'Prev') {
+                    endVisibleCount = endVisibleCount - limit;
+                    startVisibleCount = endVisibleCount - limit;
+                    showVisible();
+                    document.querySelectorAll("#paginationTabs ul li.active")[1].previousSibling.classList.add("active")
+                    document.querySelectorAll("#paginationTabs ul li.active")[1].nextSibling.classList.remove("active");
+                    if (nodeCount.indexOf(e.currentTarget.parentNode) === (nodeCount.indexOf(document.querySelectorAll("#paginationTabs ul li.active")[1]) - 1)) {
+                        nodeCount[0].classList.remove("active")
+                        nodeCount[0].classList.add("d-none")
+                    }
+                }
+            }
+        })();
+    </script>
 </body>
 
 </html>

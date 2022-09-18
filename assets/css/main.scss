@@ -3,6 +3,8 @@
 @import 'common/services';
 @import 'common/countries';
 @import 'common/about-common';
+@import 'common/auth-common';
+@import 'common/application';
 
 // home 
 main {
@@ -43,7 +45,7 @@ main {
   }
 
   .online-booking {
-    background-color: #16AAB9;
+    background-color: #ADCEFF;
     padding: 143px 0;
 
     .booking-bg {
@@ -147,7 +149,7 @@ main {
   }
 
   .services {
-    background-color: #FFBFDA;
+    background-color: #E9D7C3;
     padding: 36px 0 110px;
 
     .title {
@@ -163,6 +165,11 @@ main {
         font-family: $roboto-bold;
         font-size: 48px;
         margin: 0;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
       }
     }
 
@@ -245,13 +252,13 @@ main {
   }
 
   .student-assist {
-    background-color: #7036C4;
+    background-color: #CEACFF;
     padding: 94px 220px;
 
     p {
       font-family: $roboto-medium;
       font-size: 36px;
-      color: #fff;
+      color: #01205B;
       margin: 0;
     }
   }
@@ -336,7 +343,7 @@ main {
   }
 
   .partner {
-    background-color: #017BA9;
+    background-color: #CCD9ED;
     padding: 92px 0;
 
     h2 {
@@ -494,6 +501,10 @@ main {
           font-family: $roboto-medium;
           font-size: 24px;
         }
+      }
+
+      a {
+        text-decoration: none;
       }
     }
 

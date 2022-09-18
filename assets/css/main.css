@@ -145,16 +145,32 @@
   color: #E01167;
 }
 
+.auth-buttons .btn {
+  background-color: #243665;
+  border-radius: 20px;
+  color: #fff !important;
+  font-family: roboto-regular !important;
+}
+
+#paginationTabs .page-item:not(.active) .page-link {
+  color: #005793;
+  font-weight: 500;
+}
+
+#paginationTabs .page-item.active .page-link {
+  background: #005793;
+  border-color: #005793;
+  font-weight: 500;
+}
+
 main.institutes .institute-bg {
   background: url(./../../assets/images/page-institutes-hero.svg);
-  background-size: contain;
-  background-position: center center;
+  background-size: cover;
 }
 
 main.institutes .institutes-type-2-bg {
   background: url(./../../assets/images/page-institutes-type-2-bg.svg);
-  background-size: contain;
-  background-position: center center;
+  background-size: cover;
 }
 
 main.institutes .industries-layout {
@@ -244,12 +260,6 @@ main.institutes .university-list .badge p {
   color: #1f1f1f;
   font-weight: 600;
   line-height: 1.1;
-}
-
-@media (min-width: 576px) {
-  main.institutes .university-list .custom-sm-6 {
-    width: 49%;
-  }
 }
 
 main.international-apirants {
@@ -484,7 +494,7 @@ main.international-apirants.learning-path .home-hero.learning-bg p, main.interna
 }
 
 main.international-apirants.learning-path .learning-bg {
-  background: url(./../../assets/images/page-7-discover.svg);
+  background-image: url(./../../assets/images/page-7-discover.svg);
 }
 
 main.international-apirants.learning-path .bg-c-discover {
@@ -674,28 +684,45 @@ main.about-common .featured-news {
 }
 
 main.about-common .featured-news .custom-card {
-  height: 423px;
   background: #E8F1FF;
   border-radius: 20px;
   margin: auto;
   margin-top: 35px;
   margin-bottom: 35px;
   max-width: 365px;
+  overflow: hidden;
 }
 
-main.about-common .blog h1 {
-  color: #FF0069;
-  letter-spacing: normal;
+main.about-common .blog .blog-strip {
   background: -webkit-gradient(linear, left bottom, left top, from(#D4DFFB), to(#D4DFFB)), #FFFFFF;
   background: linear-gradient(0deg, #D4DFFB, #D4DFFB), #FFFFFF;
+  margin: 0;
 }
 
-main.about-common .blog h1::after {
+main.about-common .blog .blog-strip .col-md-6:first-child h1 {
+  color: #FF0069;
+  letter-spacing: normal;
+}
+
+main.about-common .blog .blog-strip .col-md-6:first-child h1::after {
   content: none;
 }
 
+main.about-common .blog .blog-strip .col-md-6:last-child h1 {
+  color: #00349E;
+  letter-spacing: normal;
+}
+
+main.about-common .blog .blog-strip .col-md-6:last-child h1::after {
+  content: none;
+}
+
+main.about-common .blog .blog-strip .col-md-6:last-child h1 img {
+  height: 50px;
+}
+
 main.about-common .blog .blog-card {
-  height: 250px;
+  overflow: hidden;
   max-width: 340px;
   border-radius: 20px;
   background: #C4C4C4;
@@ -711,6 +738,14 @@ main.about-common .blog.extended {
   background: #D28A39;
 }
 
+main.about-common .blog .title-11 {
+  color: #755912;
+}
+
+main.about-common .blog .title-22 i {
+  font-size: 18px;
+}
+
 main.about-common .management {
   background: #A2B6EB;
 }
@@ -719,11 +754,10 @@ main.about-common .management h2 {
   border-radius: 10px;
 }
 
-main.about-common .management .person {
+main.about-common .management .person img {
   height: 248px;
   width: 248px;
-  background: #C4C4C4;
-  margin: auto;
+  border-radius: 50%;
 }
 
 main.about-common .management h4 {
@@ -740,6 +774,418 @@ main.about-common .management .experts-voice p {
 
 main.about-common .management .experts-voice p::first-letter {
   padding-left: 3.3rem;
+}
+
+main.about-us .about-section > .d-flex .d-col:first-child .list-group {
+  background-color: #ECEFFF;
+  padding: 40px 25px 100px 25px;
+}
+
+main.about-us .about-section > .d-flex .d-col:first-child .list-group img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 54px;
+}
+
+main.about-us .about-section > .d-flex .d-col:first-child .list-group a {
+  font-family: roboto-medium;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+main.about-us .about-section > .d-flex .d-col:first-child .list-group a.active {
+  background-color: transparent;
+  color: #000;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child > h1 {
+  font-family: roboto-medium;
+  font-size: 36px;
+  background-color: #C4C4C4;
+  color: #000;
+  padding: 40px;
+  text-align: center;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container {
+  padding: 0 100px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .list-title {
+  font-family: roboto-medium;
+  font-size: 24px;
+  color: #000;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container p {
+  font-family: roboto-regular;
+  font-size: 16px;
+  color: #000;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container p strong {
+  font-family: roboto-bold;
+  font-size: 16px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container h5 {
+  font-family: roboto-bold;
+  font-size: 16px;
+  color: #000;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .input-group {
+  position: relative;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .input-group .form-control {
+  border: 1px solid #729EF4;
+  background-color: #EBF0FF;
+  border-radius: 30px !important;
+  height: 42px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .input-group .btn {
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  right: 3px;
+  top: 3px;
+  background-color: transparent;
+  border-radius: 3px !important;
+  padding: 0;
+  border: none;
+  z-index: 9;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .input-group .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .input-group .btn img {
+  margin-top: -4px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item {
+  margin-bottom: 30px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item h4,
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item label {
+  font-family: roboto-regular;
+  font-size: 16px;
+  color: #000;
+  display: block;
+  margin-bottom: 16px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item h2 {
+  font-family: roboto-regular;
+  font-size: 24px;
+  color: #000;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item a {
+  font-family: roboto-bold;
+  font-size: 24px;
+  color: #243665;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item .d-flex > div:first-child {
+  margin-right: 30px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery {
+  padding-bottom: 150px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery .carousel-control-prev-icon {
+  background-image: url(../images/arr-left.png);
+  width: 50px;
+  height: 83px;
+}
+
+main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery .carousel-control-next-icon {
+  background-image: url(../images/arr-right.png);
+  width: 50px;
+  height: 83px;
+}
+
+main.user .text-red {
+  color: #ff0000;
+}
+
+main.user .bg-login {
+  background-image: url(../images/login-bg.svg);
+}
+
+main.user .bg-grey {
+  background: #F7F7F7;
+}
+
+main.user .divider:after,
+main.user .divider:before {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+main.user .br-5 {
+  border-radius: 5px;
+}
+
+main.user .br-10 {
+  border-radius: 10px;
+}
+
+main.user .login-panel {
+  -webkit-box-shadow: -15px 15px 0px #007cff;
+          box-shadow: -15px 15px 0px #007cff;
+  border-radius: 15px;
+}
+
+main.user .login-panel .custom-padding {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+main.user .login-panel > div {
+  background: #f6f8fd;
+  border: 5px solid #01499d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+main.user .login-panel .fs-10 {
+  font-size: 10px;
+}
+
+main.user .login-panel label {
+  color: #000;
+}
+
+main.user .login-panel .btn-dark-blue {
+  background: #243665;
+  font-size: 24px;
+}
+
+main.user .login-panel .text-dark-blue {
+  color: #243665;
+  font-weight: 500;
+}
+
+main.user .drop-shadow {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+main.user .drop-shadow h4 {
+  color: #3E66F7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main.user .drop-shadow p {
+  color: #000000;
+}
+
+main.user .drop-shadow a {
+  border: 2px solid rgba(36, 54, 101, 0.2);
+  border-radius: 10px;
+  color: #243665;
+}
+
+main.user .sinup-details {
+  background-image: url(../images/sinup-details.jpg);
+}
+
+main.user .sinup-details img.image-position {
+  left: 250px;
+  z-index: 1;
+  top: -102px;
+}
+
+main.user .sinup-details-seps {
+  background: #a2b6eb;
+}
+
+main.user .sinup-details-seps .form-wrapper {
+  background: #ECF0FB;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+main.user .sinup-details-seps .form-wrapper figure {
+  right: 104px;
+}
+
+main.user .sinup-details-seps .form-wrapper .fs-adjust {
+  font-size: 0.775em;
+}
+
+main.user .sinup-details-seps .form-wrapper .form-check label {
+  min-width: 4.2em;
+}
+
+main.user .sinup-details-seps .form-wrapper .play-icons {
+  bottom: 2.6em;
+  position: absolute;
+  right: 40px;
+}
+
+main.user .sinup-details-seps .form-wrapper .play-icons + .play-icons {
+  left: 0;
+  bottom: 1.5em;
+  margin: auto;
+}
+
+main.user .sinup-details-seps .form-wrapper .choose-file {
+  position: absolute;
+  bottom: 1px;
+  width: 99%;
+  left: 1px;
+  padding-top: 4.7px !important;
+  padding-bottom: 4.78px !important;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+main.user .sinup-details-seps .form-wrapper .choose-file button {
+  font-size: 10px;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main.user .sinup-details-seps .fs-14 {
+  font-size: 14px;
+}
+
+main.paid-application section {
+  padding: 50px 0;
+}
+
+main.paid-application section h4 {
+  font-family: roboto-medium;
+  font-size: 24px;
+  margin-bottom: 37px;
+}
+
+main.paid-application section .table tr th,
+main.paid-application section .table tr td {
+  font-family: roboto-regular;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+}
+
+main.paid-application section .table input[type=checkbox] {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+main.paid-application section .table thead {
+  background: #C4C4C4;
+}
+
+main.paid-application section .table .btn {
+  width: 78px;
+  height: 22px;
+  background: #243665;
+  color: #fff;
+  padding: 0;
+  font-family: roboto-medium;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+main.paid-application section .btn-outline-primary {
+  border: 2px solid #243665;
+  color: #243665;
+  font-family: roboto-medium;
+  font-size: 14px;
+}
+
+main.paid-application section .btn-outline-primary:hover {
+  background-color: #243665;
+  color: #fff;
+}
+
+main.paid-application section .btn-primary {
+  border: 2px solid #243665;
+  background-color: #243665;
+  color: #fff;
+  font-family: roboto-medium;
+  font-size: 14px;
+}
+
+main.paid-application section .btn-primary:hover {
+  background-color: #243665;
+  color: #fff;
+}
+
+main.contact-us .form {
+  background-color: #FFD6E7;
+}
+
+main.contact-us .form h4 {
+  color: #061846;
+  font-family: roboto-medium;
+  font-size: 48px;
+  padding: 50px 0 100px;
+  background-color: transparent;
+  text-align: center;
+}
+
+main.contact-us .form label {
+  font-family: roboto-medium;
+  font-size: 36px;
+  color: #001F5B;
+}
+
+main.contact-us .form ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 120px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main.contact-us .form ul li {
+  margin-bottom: 20px;
+}
+
+main.contact-us .form .common-btn {
+  background-color: #005460;
+  color: #fff;
+}
+
+main.contact-us .form input[type=text] {
+  height: 48px;
+  margin-bottom: 1rem;
 }
 
 main .header .top-bar {
@@ -830,9 +1276,9 @@ main .home-hero h2 {
 }
 
 main .home-hero p {
-  font-family: roboto-medium-italic;
+  font-family: roboto;
   font-size: 28px;
-  color: #E31E24;
+  color: #243665;
 }
 
 main .home-hero .font-family-style-normal {
@@ -844,7 +1290,7 @@ main .btn-size-32 {
 }
 
 main .online-booking {
-  background-color: #16AAB9;
+  background-color: #ADCEFF;
   padding: 143px 0;
 }
 
@@ -962,22 +1408,22 @@ main .online-booking .booking-bg ul li:nth-child(3) .text {
 }
 
 main .online-booking .booking-bg .common-btn {
-  background-color: #58019C;
+  background-color: #01205B;
   color: #fff;
 }
 
 main .services {
-  background-color: #FFBFDA;
+  background-color: #E9D7C3;
   padding: 36px 0 110px;
 }
 
 main .services .title {
   width: 490px;
   display: inline-block;
-  background-color: #FF0000;
+  /* background-color: #FF0000; */
   padding: 16px;
   border-radius: 20px;
-  color: #fff;
+  /* color: #01205B; */
   margin-bottom: 65px;
 }
 
@@ -985,6 +1431,12 @@ main .services .title h2 {
   font-family: roboto-bold;
   font-size: 48px;
   margin: 0;
+  /* color: #01205B; */
+}
+
+main .services .title h2 a {
+  color: #01205B;
+  text-decoration: none;
 }
 
 main .services .services-card {
@@ -1074,14 +1526,14 @@ main .consult-us .common-btn.orange-color {
 }
 
 main .student-assist {
-  background-color: #7036C4;
+  background-color: #CEACFF;
   padding: 94px 220px;
 }
 
 main .student-assist p {
   font-family: roboto-medium;
   font-size: 36px;
-  color: #fff;
+  color: #01205B;
   margin: 0;
 }
 
@@ -1163,16 +1615,16 @@ main .recruitment-agent .common-btn {
 }
 
 main .partner {
-  background-color: #017BA9;
+  background-color: #CCD9ED;
   padding: 92px 0;
 }
 
 main .partner h2 {
   font-family: roboto-bold;
   font-size: 48px;
-  color: #E31E24;
+  color: #01205B;
   display: inline-block;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 10px 20px;
   border-radius: 20px;
 }
@@ -1180,11 +1632,11 @@ main .partner h2 {
 main .partner p {
   font-family: roboto-medium;
   font-size: 32px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 main .partner .common-btn {
-  background-color: #37465C;
+  background-color: #01205B;
   color: #fff;
 }
 
@@ -1354,6 +1806,10 @@ main .programs .card .title h3 {
   font-size: 24px;
 }
 
+main .programs .card a {
+  text-decoration: none;
+}
+
 main .programs .common-btn {
   background-color: #243665;
   color: #fff;
@@ -1365,6 +1821,9 @@ main .programs .common-btn {
   }
   main.international-apirants .home-hero.int-service-bg {
     background-size: 90%;
+  }
+  main .home-hero h2 {
+    font-size: 2.2rem;
   }
 }
 
@@ -1435,6 +1894,17 @@ main .programs .common-btn {
   }
   main .programs {
     padding: 92px 96px;
+  }
+  main.international-apirants.discover-purposes blockquote {
+    padding: 42px 42px 208px 30px;
+  }
+  main.institutes .university-list .badge p {
+    font-size: 18px !important;
+  }
+  main.user .sinup-details img.image-position {
+    left: 59px;
+    z-index: 1;
+    top: -56px;
   }
 }
 
@@ -1543,13 +2013,79 @@ main .programs .common-btn {
   main .programs {
     padding: 50px 0px;
   }
+  main.international-apirants.discover-purposes .h-40 {
+    font-size: 16px;
+  }
+  main.international-apirants.discover-purposes .bg-pinkish-magenta,
+  main.international-apirants.learning-path .btn-violate,
+  main.international-apirants.learning-path .btn-skyblue,
+  main.institutes .university-list .badge p,
+  main.institutes .selected-countries .badge {
+    font-size: 16px !important;
+  }
+  main.institutes .dropdown button {
+    font-size: 25px;
+    padding: 15px !important;
+  }
+  main.institutes .dropdown button.active + .dropdown-menu {
+    top: 70px;
+  }
+  main.about-us .about-section > .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main.about-us .about-section > .d-flex .d-col:first-child .list-group {
+    padding: 10px 25px;
+  }
+  main.about-us .about-section > .d-flex .d-col:first-child .list-group img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  main.about-us .about-section > .d-flex .d-col:first-child .list-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.about-us .about-section > .d-flex .d-col:first-child .list-group a {
+    text-align: center;
+    font-size: 18px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child > h1 {
+    padding: 20px;
+    font-size: 26px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container {
+    padding: 0 20px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery {
+    padding-bottom: 50px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery .carousel-control-prev-icon,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery .carousel-control-next-icon {
+    width: 30px;
+    height: 63px;
+  }
+  main.user .sinup-details img.image-position {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
   main .home-hero.home-hero-bg,
   main .online-booking .booking-bg,
   main.international-apirants .home-hero.int-service-bg,
-  main.international-apirants .int-recruiting-agent {
+  main.international-apirants .int-recruiting-agent,
+  main.international-apirants.discover-purposes .home-hero.discover-bg,
+  main.international-apirants.discover-purposes blockquote,
+  main.international-apirants.learning-path .learning-bg,
+  main.user .bg-login {
     background: none;
   }
   main .online-booking .booking-bg ul li > span {
@@ -1590,7 +2126,10 @@ main .programs .common-btn {
   .label-ribben,
   main .partner h2,
   main.international-apirants .fs-36,
-  main .programs .card .title h3 {
+  main .programs .card .title h3,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .list-title,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item h2,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item a {
     font-size: 18px;
   }
   main .programs .card {
@@ -1610,11 +2149,18 @@ main .programs .common-btn {
   .career-choice img,
   .recruitment-agent img,
   .international-exp img,
-  .connect-us img {
+  .connect-us img,
+  main.international-apirants.discover-purposes blockquote::before,
+  main.international-apirants.discover-purposes blockquote::after {
     display: none;
   }
-  main .recruitment-agent h3 {
-    font-size: 24px;
+  main.international-apirants.discover-purposes blockquote {
+    padding: 0;
+  }
+  main .recruitment-agent h3,
+  main.about-common .management h4,
+  main.about-common .management p {
+    font-size: 24px !important;
   }
   .partner .d-flex {
     display: block !important;
@@ -1639,15 +2185,58 @@ main .programs .common-btn {
     width: 50px;
     left: 75px;
   }
-  .student-facilities img {
+  .student-facilities img,
+  main.about-us .about-section > .d-flex .d-col:first-child {
     display: none;
   }
-  main.international-apirants .study-section .btn-style {
+  main.international-apirants .study-section .btn-style,
+  main.contact-us .form label {
     font-size: 24px !important;
     margin-top: 20px !important;
   }
-  .common-peach-section .title {
+  .common-peach-section .title,
+  main.about-common .management .experts-voice h2,
+  main.countries .country-title,
+  main.countries .country-bg-c h3 {
     font-size: 36px;
+  }
+  main.international-apirants.learning-path .home-hero.learning-bg p {
+    font-size: 16px !important;
+  }
+  main.about-common h1 {
+    font-size: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container .list-title,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-gallery {
+    padding: 10px 0;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container p,
+  main.about-us .about-section > .d-flex .d-col:last-child .container p strong {
+    font-size: 14px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container .input-group {
+    margin-bottom: 20px;
+  }
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item h4,
+  main.about-us .about-section > .d-flex .d-col:last-child .container .about-programs-item label {
+    margin-bottom: 5px;
+  }
+  main.contact-us .form h4 {
+    font-size: 30px;
+    padding: 15px;
+  }
+  main.contact-us .form ul {
+    padding: 30px 0;
+  }
+  main.user .sinup-details-seps .form-wrapper .play-icons.d-flex {
+    bottom: -6em;
+    position: absolute;
+    right: 0px;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
   }
 }
 
@@ -1658,12 +2247,25 @@ main .programs .common-btn {
   main .online-booking .booking-bg ul li:first-child .text {
     line-height: 3;
   }
-  main.international-apirants .primary-btn {
+  main.international-apirants .primary-btn,
+  main.about-common h1 {
     font-size: 16px !important;
   }
   main .programs .card,
   main .programs .card .title,
   main .programs .card .img {
+    width: 100%;
+  }
+  main.about-common h1 {
+    font-size: 16px !important;
+  }
+  main.about-common h1 img {
+    width: 40px;
+    padding: 10px !important;
+  }
+  main.institutes .dropdown button {
+    font-size: 18px;
+    padding: 15px !important;
     width: 100%;
   }
 }
